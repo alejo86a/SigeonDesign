@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+<title>Sigeon</title>
+<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="main">
+    <header id="header">
+    <img src="images/banner.png"/>
+    </header>
+            
+    <ui:include src="login.xhtml" rendered="true" id="login"/>
+    
+    <section id="tipos-de-usuarios">
+    	<article class="tipo-usuario">
+        <h3>Estudiante</h3>
+        <img src="images/estudiante.png" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac justo nec ligula elementum posuere. Nulla pulvinar mi ut ante vestibulum, vitae laoreet risus ultricies. Curabitur gravida feugiat tellus sed porta. Nulla malesuada turpis non turpis aliquam semper. Fusce accumsan</p>
+        </article>
+    	<article class="tipo-usuario">
+        <h3>Profesor</h3>
+        <img src="images/estudiante.png" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac justo nec ligula elementum posuere. Nulla pulvinar mi ut ante vestibulum, vitae laoreet risus ultricies. Curabitur gravida feugiat tellus sed porta. Nulla malesuada turpis non turpis aliquam semper. Fusce accumsan</p>
+        </article>
+    	<article class="tipo-usuario">
+        <h3>Administrador</h3>
+        <img src="images/estudiante.png" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac justo nec ligula elementum posuere. Nulla pulvinar mi ut ante vestibulum, vitae laoreet risus ultricies. Curabitur gravida feugiat tellus sed porta. Nulla malesuada turpis non turpis aliquam semper. Fusce accumsan</p>	
+        </article>
+    </section>
+     
+    
+    <iframe id="opciones" name="opciones-1" src="">
+    </iframe>
+    
+    <ui:include src="#{principal.url}" rendered="true"/>
+    
+    
+    <footer>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* CSS Document */
+
+#main{
+	width:80%;
+	max-width:1000px;
+	margin:0 auto;
+	height:auto;
+	min-height:auto;
+	overflow:hidden;
+}
+
+#formulario{
+	margin:auto auto;
+	width:auto;
+	max-width:35%;
+	height:auto;
+	min-height:70%;
+}
+.elemento{
+	width:auto;
+	max-width:50%;
+	margin:auto auto;
+}
+
+.opcion{
+	-moz-border-radius: 31px;
+	-webkit-border-radius: 31px;
+	border-radius: 31px;
+	
+	width:auto;
+	min-width:33%;
+	border-right:5%;
+	
+	height:auto;
+	min-height:130px;	
+	
+	background-color:#6CB569;
+	text-align:center;
+	
+	border-color:#000;
+	color:#FFF;
+	
+}
+
+		@media screen and (max-width:400px){
+			.elemento{
+				width:99%;	
+			}
+			.elemento input{
+				lang:99%;	
+				width:auto;
+			}
+			.opcion{				
+				height:auto;
+				width:100%;
+				height:auto;
+			}
+		}
